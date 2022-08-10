@@ -21,15 +21,15 @@
 # Operaciones y Funciones Avanzadas
 
 + Elevar al cuadrado: `valor1`  +  `x^2` = `resultado` 
-+ Elevar al cubo: `valor1`  +  `x^3` rresultadtado` 
-+ Raiz cuadrada: `valor1`  +  `= `√esultado` 
-+ Reciproca: `valor1`  +  `1/x` =esu tado` 
-+ Cambio de signo: `valor1`  +  `±` =esul ado` 
-+ Logaritmo: `valor1`  +  `log` = `result` 
-a Raiz Cubica: `valor1`  +  `3√x`e =sultado` 
-+ Elevado a la -1: `valor1`  +  `x^-1n!` esultado` 
++ Elevar al cubo: `valor1`  +  `x^3` = `resultadtado` 
++ Raiz cuadrada: `valor1`  +  `= `resultado` 
++ Reciproca: `valor1`  +  `1/x` = `resultado` 
++ Cambio de signo: `valor1`  +  `±` = `resultado` 
++ Logaritmo: `valor1`  +  `log` = `resultado` 
++ Raiz Cubica: `valor1`  +  `3√x`e = 'resultado` 
++ Elevado a la -1: `valor1`  +  `x^-1n!` =  `resultado` 
 + Raiz de un numero n: `valor1`  +  `y√x` = `resultado` 
-+ Euler: `valor1`  +  `e` = `valor1` 
++ Euler: `valor1`  +  `e` = `resultado` 
 + Factorial: `valor1`  +  `n!`  = `resultado` 
 + 10 elevado a la n: `valor1`  +  `10^x` = `resultado` 
 
