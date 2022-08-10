@@ -33,6 +33,8 @@
 + Euler: `valor1`  +  `e` = `resultado` 
 + Factorial: `valor1`  +  `n!`  = `resultado` 
 + 10 elevado a la n: `valor1`  +  `10^x` = `resultado` 
++ PI: `valor1`  +  `π` = `resultado` 
++ Exponencial: `valor1`  +  `EXP` = `resultado` 
 
 # Funciones Trigonometricas
 
