@@ -1,5 +1,6 @@
 # Calculadora_Cientifica
 ## Implementación de una Calculadora científica en Java con GUI
+### Felipe Pazmiño
 --- 
 ## 1. Diseño
 
