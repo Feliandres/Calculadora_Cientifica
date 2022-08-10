@@ -27,7 +27,7 @@
 + Reciproca: `valor1`  +  `1/x` = `resultado` 
 + Cambio de signo: `valor1`  +  `±` = `resultado` 
 + Logaritmo: `valor1`  +  `log` = `resultado` 
-+ Raiz Cubica: `valor1`  +  `3√x` = 'resultado` 
++ Raiz Cubica: `valor1`  +  `3√x` = `resultado` 
 + Elevado a la -1: `valor1`  +  `x^-1n!` =  `resultado` 
 + Raiz de un numero n: `valor1`  +  `y√x` = `resultado` 
 + Euler: `valor1`  +  `e` = `resultado` 
