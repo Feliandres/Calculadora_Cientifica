@@ -224,17 +224,17 @@ public class Calculadora_Cientifica {
                 if (operacion1 = true) {
                     valor1 = Double.parseDouble(resultadoPrincipalTxt.getText());
                     ResultadoSecundarioTxt.setText("");
-                    ResultadoSecundarioTxt.setText(resultadoPrincipalTxt.getText()+"+");
+                    ResultadoSecundarioTxt.setText(resultadoPrincipalTxt.getText()+" + ");
                     operacion1 = false;
                 }else {
                     // condicion para la variable operacion2
                     if (operacion2 = true) {
                         valor2 = Double.parseDouble(resultadoPrincipalTxt.getText());
                         ResultadoSecundarioTxt.setText("");
-                        ResultadoSecundarioTxt.setText(resultadoPrincipalTxt.getText()+"+");
+                        ResultadoSecundarioTxt.setText(resultadoPrincipalTxt.getText()+" + ");
                         operacion2 = false;
                     }else {
-                        ResultadoSecundarioTxt.setText(resultadoPrincipalTxt.getText()+"+");
+                        ResultadoSecundarioTxt.setText(resultadoPrincipalTxt.getText()+" + ");
                         Operaciones(resultado, valor2);
                     }
 
@@ -253,17 +253,17 @@ public class Calculadora_Cientifica {
                 if (operacion1 = true) {
                     valor1 = Double.parseDouble(resultadoPrincipalTxt.getText());
                     ResultadoSecundarioTxt.setText("");
-                    ResultadoSecundarioTxt.setText(resultadoPrincipalTxt.getText()+"-");
+                    ResultadoSecundarioTxt.setText(resultadoPrincipalTxt.getText()+" - ");
                     operacion1 = false;
                 }else {
                     // condicion para la variable operacion2
                     if (operacion2 = true) {
                         valor2 = Double.parseDouble(resultadoPrincipalTxt.getText());
                         ResultadoSecundarioTxt.setText("");
-                        ResultadoSecundarioTxt.setText(resultadoPrincipalTxt.getText()+"-");
+                        ResultadoSecundarioTxt.setText(resultadoPrincipalTxt.getText()+" - ");
                         operacion2 = false;
                     }else {
-                        ResultadoSecundarioTxt.setText(resultadoPrincipalTxt.getText()+"-");
+                        ResultadoSecundarioTxt.setText(resultadoPrincipalTxt.getText()+" - ");
                         Operaciones(resultado, valor2);
                     }
 
@@ -282,17 +282,17 @@ public class Calculadora_Cientifica {
                 if (operacion1 = true) {
                     valor1 = Double.parseDouble(resultadoPrincipalTxt.getText());
                     ResultadoSecundarioTxt.setText("");
-                    ResultadoSecundarioTxt.setText(resultadoPrincipalTxt.getText()+"*");
+                    ResultadoSecundarioTxt.setText(resultadoPrincipalTxt.getText()+" x ");
                     operacion1 = false;
                 }else {
                     // condicion para la variable operacion2
                     if (operacion2 = true) {
                         valor2 = Double.parseDouble(resultadoPrincipalTxt.getText());
                         ResultadoSecundarioTxt.setText("");
-                        ResultadoSecundarioTxt.setText(resultadoPrincipalTxt.getText()+"*");
+                        ResultadoSecundarioTxt.setText(resultadoPrincipalTxt.getText()+" x ");
                         operacion2 = false;
                     }else {
-                        ResultadoSecundarioTxt.setText(resultadoPrincipalTxt.getText()+"*");
+                        ResultadoSecundarioTxt.setText(resultadoPrincipalTxt.getText()+" x ");
                         Operaciones(resultado, valor2);
                     }
 
@@ -301,7 +301,7 @@ public class Calculadora_Cientifica {
             }
         });
 
-        // INICIO  Boton multiplicacion
+        // INICIO  Boton division
         divisionBTN.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -311,17 +311,17 @@ public class Calculadora_Cientifica {
                 if (operacion1 = true) {
                     valor1 = Double.parseDouble(resultadoPrincipalTxt.getText());
                     ResultadoSecundarioTxt.setText("");
-                    ResultadoSecundarioTxt.setText(resultadoPrincipalTxt.getText()+"+");
+                    ResultadoSecundarioTxt.setText(resultadoPrincipalTxt.getText()+" / ");
                     operacion1 = false;
                 }else {
                     // condicion para la variable operacion2
                     if (operacion2 = true) {
                         valor2 = Double.parseDouble(resultadoPrincipalTxt.getText());
                         ResultadoSecundarioTxt.setText("");
-                        ResultadoSecundarioTxt.setText(resultadoPrincipalTxt.getText()+"/");
+                        ResultadoSecundarioTxt.setText(resultadoPrincipalTxt.getText()+" / ");
                         operacion2 = false;
                     }else {
-                        ResultadoSecundarioTxt.setText(resultadoPrincipalTxt.getText()+"/");
+                        ResultadoSecundarioTxt.setText(resultadoPrincipalTxt.getText()+" / ");
                         Operaciones(resultado, valor2);
                     }
 
@@ -358,7 +358,7 @@ public class Calculadora_Cientifica {
             public void actionPerformed(ActionEvent e) {
                 valor1 = Double.parseDouble(resultadoPrincipalTxt.getText());
                 if (valor1 >= 0){
-                    ResultadoSecundarioTxt.setText("sqrt( "+valor1+" )");
+                    ResultadoSecundarioTxt.setText("sqrt( " +valor1+ " )");
                     resultadoPrincipalTxt.setText(Math.sqrt(valor1)+" ");
                 } else {
                     resultadoPrincipalTxt.setText("Error ");
@@ -382,7 +382,7 @@ public class Calculadora_Cientifica {
             @Override
             public void actionPerformed(ActionEvent e) {
                 valor1 = Double.parseDouble(resultadoPrincipalTxt.getText());
-                ResultadoSecundarioTxt.setText("reciproc("+valor1+" )");
+                ResultadoSecundarioTxt.setText("reciproc(" +valor1+ " )");
                 resultadoPrincipalTxt.setText(1/valor1 + " ");
             }
         });
@@ -510,7 +510,7 @@ public class Calculadora_Cientifica {
             @Override
             public void actionPerformed(ActionEvent e) {
                 valor1 = Double.parseDouble(resultadoPrincipalTxt.getText());
-                ResultadoSecundarioTxt.setText(valor1+"^-1");
+                ResultadoSecundarioTxt.setText(valor1+" ^-1 ");
                 resultadoPrincipalTxt.setText(Math.pow(valor1,-1)+ " ");
             }
         });
@@ -521,7 +521,7 @@ public class Calculadora_Cientifica {
             public void actionPerformed(ActionEvent e) {
                 inicio = true;
                 valor1 = Double.parseDouble(resultadoPrincipalTxt.getText());
-                ResultadoSecundarioTxt.setText(valor1+"^");
+                ResultadoSecundarioTxt.setText(valor1+" ^ ");
                 tipoOperaciones = "potencia";
                 operacion1 = false;
                 igual = true;
@@ -548,7 +548,7 @@ public class Calculadora_Cientifica {
             @Override
             public void actionPerformed(ActionEvent e) {
                 valor1 = Double.parseDouble(resultadoPrincipalTxt.getText());
-                ResultadoSecundarioTxt.setText("cube( "+valor1+" )");
+                ResultadoSecundarioTxt.setText("cube( " +valor1+ " )");
                 resultadoPrincipalTxt.setText(Math.pow(valor1,3)+" ");
 
             }
@@ -560,7 +560,7 @@ public class Calculadora_Cientifica {
             public void actionPerformed(ActionEvent e) {
                 a = 1;
                 valor1 = Double.parseDouble(resultadoPrincipalTxt.getText());
-                ResultadoSecundarioTxt.setText("fact( "+valor1+" )");
+                ResultadoSecundarioTxt.setText("fact( " +valor1+" )");
                 for (b = 1; b <= valor1; b++){
                     a = a * b;
                 }
@@ -585,7 +585,7 @@ public class Calculadora_Cientifica {
                 a = 1;
                 b = 3;
                 c = a/b;
-                ResultadoSecundarioTxt.setText("cuberoot( "+valor1+ ") ");
+                ResultadoSecundarioTxt.setText("cuberoot( " +valor1+ ") ");
                 resultadoPrincipalTxt.setText(Math.pow(valor1,c)+" ");
             }
         });
@@ -595,7 +595,7 @@ public class Calculadora_Cientifica {
             @Override
             public void actionPerformed(ActionEvent e) {
                 valor1 = Double.parseDouble(resultadoPrincipalTxt.getText());
-                ResultadoSecundarioTxt.setText("sqr( "+valor1+ ") ");
+                ResultadoSecundarioTxt.setText("sqr( " +valor1+ ") ");
                 resultadoPrincipalTxt.setText(Math.pow(valor1,2)+" ");
 
             }
@@ -606,7 +606,7 @@ public class Calculadora_Cientifica {
             @Override
             public void actionPerformed(ActionEvent e) {
                 valor1 = Double.parseDouble(resultadoPrincipalTxt.getText());
-                ResultadoSecundarioTxt.setText("pow_ten( "+valor1+ ") ");
+                ResultadoSecundarioTxt.setText("pow_ten( " +valor1+ ") ");
                 resultadoPrincipalTxt.setText(Math.pow(10,valor1)+" ");
 
             }
@@ -626,7 +626,7 @@ public class Calculadora_Cientifica {
             @Override
             public void actionPerformed(ActionEvent e) {
                 valor1 = Double.parseDouble(resultadoPrincipalTxt.getText());
-                ResultadoSecundarioTxt.setText("log( "+valor1+ ") ");
+                ResultadoSecundarioTxt.setText("log( " +valor1+ ") ");
                 resultadoPrincipalTxt.setText(Math.log(valor1)+" ");
             }
         });
