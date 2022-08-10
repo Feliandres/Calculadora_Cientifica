@@ -4,6 +4,7 @@
 ## 1. Diseño
 
  <img width="600" alt="image" src="https://user-images.githubusercontent.com/85601974/183820025-22e31847-59e3-47f1-a692-0f101a6d5462.png">
+ 
 ---
 # Link video de YouTube
 
@@ -22,11 +23,11 @@
 
 + Elevar al cuadrado: `valor1`  +  `x^2` = `resultado` 
 + Elevar al cubo: `valor1`  +  `x^3` = `resultadtado` 
-+ Raiz cuadrada: `valor1`  +  `= `resultado` 
++ Raiz cuadrada: `valor1`  +  `√` = `resultado` 
 + Reciproca: `valor1`  +  `1/x` = `resultado` 
 + Cambio de signo: `valor1`  +  `±` = `resultado` 
 + Logaritmo: `valor1`  +  `log` = `resultado` 
-+ Raiz Cubica: `valor1`  +  `3√x`e = 'resultado` 
++ Raiz Cubica: `valor1`  +  `3√x` = 'resultado` 
 + Elevado a la -1: `valor1`  +  `x^-1n!` =  `resultado` 
 + Raiz de un numero n: `valor1`  +  `y√x` = `resultado` 
 + Euler: `valor1`  +  `e` = `resultado` 
