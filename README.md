@@ -8,7 +8,7 @@
  
 ---
 # Link video de YouTube
-
+https://youtu.be/OvC4hC1KYZQ
 
 ---
 ## 3. Funcionales y Operaciones
